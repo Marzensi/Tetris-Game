@@ -227,7 +227,7 @@ const player = {
 };
 
 document.addEventListener('keydown', event => {
-    console.log(event);
+    //console.log(event);
     if (event.keyCode === 37) {
         playerMove(-1);
     }else if (event.keyCode === 39) {
